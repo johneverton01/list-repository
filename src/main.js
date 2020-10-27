@@ -46,7 +46,7 @@ class App {
 
             this.repositories.push({
                 name,
-                description,
+                description: description  || '',
                 avatar_url,
                 html_url
             });
